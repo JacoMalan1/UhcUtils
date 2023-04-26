@@ -1,0 +1,13 @@
+name: UhcUtils
+version: 1.0.0
+main: com.codelog.uhcutils.UhcUtilsPlugin
+description: The CodeLog UHC Utilities plugin
+author: Jaco Malan
+website: https://github.com/CodeLog/UhcUtils
+api-version: 1.19
+commands:
+  command:
+    description: "Spread players"
+    usage: "/spreadplayers <min_player_distance> <min_center_distance>"
+    permission: uhcutils.spreadplayers
+    permission-message: "You do not have permission to use this command"

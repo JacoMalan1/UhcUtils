@@ -6,8 +6,8 @@ author: Jaco Malan
 website: https://github.com/CodeLog/UhcUtils
 api-version: 1.19
 commands:
-  command:
+  uspread:
     description: "Spread players"
-    usage: "/spreadplayers <min_player_distance> <min_center_distance>"
-    permission: uhcutils.spreadplayers
+    usage: "/uspread <minor_radius> <major_radius>" 
+    permission: uhcutils.spread
     permission-message: "You do not have permission to use this command"
